@@ -70,4 +70,10 @@
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
 
+  <!-- Frameworks repos -->
+  <project path="frameworks/minikin" name="android_frameworks_minikin" remote="lineage" />
+
+  <!-- System repos -->
+  <project path="system/security" name="android_system_security" remote="lineage" />
+
 </manifest>

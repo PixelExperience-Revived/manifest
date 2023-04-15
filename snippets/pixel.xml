@@ -81,9 +81,9 @@
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pixel" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="pixel" />
-  <project path="frameworks/base" name="frameworks_base" remote="pixel-plus" />
-  <project path="frameworks/native" name="frameworks_native" remote="pixel-plus" />
+  <project path="frameworks/av" name="frameworks_av" remote="pixel-revived" />
+  <project path="frameworks/base" name="frameworks_base" remote="pixel-plus-revived" />
+  <project path="frameworks/native" name="frameworks_native" remote="pixel-plus-revived" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
@@ -92,7 +92,7 @@
   <!-- General repos -->
   <project path="art" name="art" remote="pixel" />
   <project path="bionic" name="bionic" remote="pixel" />
-  <project path="build/make" name="build" remote="pixel-plus">
+  <project path="build/make" name="build" remote="pixel-plus-revived">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -146,7 +146,7 @@
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
-  <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="pixel" />
+  <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="pixel-revived" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="pixel" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel-plus" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="pixel" />
@@ -169,11 +169,11 @@
   <project path="external/cldr" name="external_cldr" remote="pixel" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
   <project path="external/freetype" name="external_freetype" remote="pixel" />
-  <project path="external/gptfdisk" name="external_gptfdisk" remote="pixel" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="pixel-revived" />
   <project path="external/icu" name="external_icu" remote="pixel" />
   <project path="external/libaom" name="external_libaom" remote="pixel" />
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
-  <project path="external/libexif" name="external_libexif" remote="pixel" />
+  <project path="external/libexif" name="external_libexif" remote="pixel-revived" />
   <project path="external/libhevc" name="external_libhevc" remote="pixel" />
   <project path="external/libtextclassifier" name="external_libtextclassifier" remote="pixel" />
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab-self-hosted" />
@@ -196,7 +196,7 @@
   <!-- System Repos -->
   <project path="system/apex" name="system_apex" remote="pixel" />
   <project path="system/bpf" name="system_bpf" remote="pixel" />
-  <project path="system/bt" name="system_bt" remote="pixel" />
+  <project path="system/bt" name="system_bt" remote="pixel-revived" />
   <project path="system/extras" name="system_extras" remote="pixel" />
   <project path="system/core" name="system_core" remote="pixel" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" remote="pixel" />
