@@ -5,7 +5,10 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b ten-plus
+repo init -u https://github.com/PixelExperience-Revived/manifest -b ten-plus
+
+# Or if you want to save more space
+repo init --depth=1 -u https://github.com/PixelExperience-Revived/manifest -b ten-plus
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
