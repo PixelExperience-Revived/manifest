@@ -229,7 +229,7 @@
   <project path="external/kotlinc" name="platform/external/kotlinc" groups="pdk" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk" />
   <project path="external/libaom" name="platform/external/libaom" groups="pdk" />
-  <project path="external/libavc" name="platform/external/libavc" groups="pdk" />
+  <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" remote="github" revision="lineage-17.1"/>
   <project path="external/libbackup" name="platform/external/libbackup" groups="pdk" />
   <project path="external/libbrillo" name="platform/external/libbrillo" groups="pdk" />
   <project path="external/libcap" name="platform/external/libcap" groups="pdk" />
@@ -309,7 +309,7 @@
   <project path="external/oauth" name="platform/external/oauth" groups="pdk" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" />
   <project path="external/oj-libjdwp" name="platform/external/oj-libjdwp" groups="pdk" />
-  <project path="external/okhttp" name="platform/external/okhttp" groups="pdk" />
+  <project path="external/okhttp" name="LineageOS/android_external_okhttp" groups="pdk" remote="github" revision="lineage-17.1"/>
   <project path="external/one-true-awk" name="platform/external/one-true-awk" groups="pdk" />
   <project path="external/opencensus-java" name="platform/external/opencensus-java" groups="pdk,tradefed" />
   <project path="external/openssh" name="platform/external/openssh" groups="pdk" />
@@ -445,7 +445,7 @@
   <project path="external/wayland-protocols" name="platform/external/wayland-protocols" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="lineage-17.1" />
   <project path="external/wycheproof" name="platform/external/wycheproof" groups="pdk" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk" />
   <project path="external/xz-embedded" name="platform/external/xz-embedded" groups="pdk" />
@@ -462,7 +462,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/hardware/interfaces" name="platform/frameworks/hardware/interfaces" groups="pdk" />
   <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-17.1"/>
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
@@ -546,7 +546,7 @@
   <project path="kernel/build" name="kernel/build" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
-  <project path="libcore" name="platform/libcore" groups="pdk" />
+  <project path="libcore" name="LineageOS/android_libcore" groups="pdk" remote="github" revision="lineage-17.1"/>
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
@@ -729,7 +729,7 @@
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
-  <project path="system/security" name="PixelExperience-Revived/system_security" groups="pdk" />
+  <project path="system/security" name="system_security" groups="pdk" remote="pixel-revived"/>
   <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk"/>
   <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk" />
