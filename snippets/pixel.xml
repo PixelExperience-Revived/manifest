@@ -137,7 +137,7 @@
   <project path="hardware/ril" name="hardware_ril" remote="pixel" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel-revived" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
   <project path="packages/apps/Car/Settings" name="packages_apps_Car_Settings" remote="pixel" />
@@ -148,7 +148,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="pixel-revived" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="pixel" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel-plus" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel-plus-revived" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="pixel" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="pixel" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
@@ -157,7 +157,7 @@
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
   <project path="packages/modules/CaptivePortalLogin" name="packages_modules_CaptivePortalLogin" remote="pixel" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel-revived" />
   <project path="packages/resources/devicesettings-custom" name="packages_resources_devicesettings-custom" remote="pixel" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel-plus" />
