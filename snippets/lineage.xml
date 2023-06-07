@@ -72,12 +72,16 @@
   <project path="external/libavc" name="android_external_libavc" remote="lineage" />
   <project path="external/okhttp" name="android_external_okhttp" remote="lineage" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="lineage" />
+  <project path="external/v8" name="android_external_v8" remote="lineage" />
 
   <!-- Frameworks repos -->
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="lineage" />
 
   <!-- System repos -->
   <project path="system/security" name="android_system_security" remote="lineage" />
+  <project path="system/connectivity/wificond" name="android_system_connectivity_wificond" remote="lineage" />
+  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="lineage" />
 
   <!-- Misc repos -->
   <project path="libcore" name="android_libcore" remote="lineage" />
