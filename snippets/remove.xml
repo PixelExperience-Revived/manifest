@@ -86,6 +86,7 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/timezonepicker" />
   <remove-project name="platform/frameworks/minikin" />
+  <remove-project name="platform/frameworks/hardware/interfaces" />
 
   <!-- General repos -->
   <remove-project name="kernel/tests" />
@@ -160,6 +161,7 @@
   <remove-project name="platform/packages/modules/CaptivePortalLogin" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/services/BuiltInPrintService" />

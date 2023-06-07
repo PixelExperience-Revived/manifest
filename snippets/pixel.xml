@@ -86,7 +86,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="pixel-plus-revived" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel-revived" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel-revived" />
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="pixel" />
 
   <!-- General repos -->
@@ -119,7 +119,7 @@
   <!-- Hardware repos -->
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="pixel" />
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel-revived" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="pixel" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
@@ -203,7 +203,7 @@
   <project path="system/keymaster" name="system_keymaster" remote="pixel" />
   <project path="system/libufdt" name="system_libufdt" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixel-plus" />
-  <project path="system/nfc" name="system_nfc" remote="pixel" />
+  <project path="system/nfc" name="system_nfc" remote="pixel-revived" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
   <project path="system/timezone" name="system_timezone" remote="pixel" />
   <project path="system/update_engine" name="system_update_engine" remote="pixel" />
