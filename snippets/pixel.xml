@@ -122,7 +122,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel-revived" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="pixel" />
-  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
+  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel-revived" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="pixel" />
   <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="pixel" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="pixel" />
@@ -180,7 +180,7 @@
   <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="pixel" />
   <project path="external/selinux" name="external_selinux" remote="pixel" />
   <project path="external/sonivox" name="external_sonivox" remote="pixel" />
-  <project path="external/skia" name="external_skia" remote="pixel" />
+  <project path="external/skia" name="external_skia" remote="pixel-revived" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
   <project path="external/toybox" name="external_toybox" remote="pixel" />
