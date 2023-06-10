@@ -87,6 +87,7 @@
   <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" remote="github"/>
   <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" remote="github"/>  
   <project path="external/chromium-libpac" name="android_external_chromium-libpac" groups="pdk" remote="lineage"/>
+  <project path="external/sqlite" name="android_external_sqlite" remote="lineage" />
 
   <!-- Frameworks repos -->
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="lineage" />
@@ -98,6 +99,7 @@
   <project path="system/connectivity/wificond" name="android_system_connectivity_wificond" remote="lineage" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="lineage" />
   <project path="system/libfmq" name="android_system_libfmq" remote="lineage" />
+  <project path="system/libhwbinder" name="android_system_libhwbinder" remote="lineage" />
 
   <!-- Misc repos -->
   <project path="libcore" name="android_libcore" remote="lineage" />
