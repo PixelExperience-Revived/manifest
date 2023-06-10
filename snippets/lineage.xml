@@ -66,6 +66,7 @@
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="lineage" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="lineage" />
+  <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="lineage" />
 
   <!-- External repos -->
   <project path="external/exfat" name="android_external_exfat" remote="lineage" />
@@ -90,11 +91,13 @@
   <!-- Frameworks repos -->
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="lineage" />
   <project path="frameworks/hardware/interfaces" name="android_frameworks_hardware_interfaces" remote="lineage" />
+  <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="lineage" />
 
   <!-- System repos -->
   <project path="system/security" name="android_system_security" remote="lineage" />
   <project path="system/connectivity/wificond" name="android_system_connectivity_wificond" remote="lineage" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="lineage" />
+  <project path="system/libfmq" name="android_system_libfmq" remote="lineage" />
 
   <!-- Misc repos -->
   <project path="libcore" name="android_libcore" remote="lineage" />

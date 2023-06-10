@@ -89,6 +89,7 @@
   <remove-project name="platform/frameworks/opt/timezonepicker" />
   <remove-project name="platform/frameworks/minikin" />
   <remove-project name="platform/frameworks/hardware/interfaces" />
+  <remove-project name="platform/frameworks/opt/net/voip" />
 
   <!-- General repos -->
   <remove-project name="kernel/tests" />
@@ -161,6 +162,7 @@
   <remove-project name="platform/packages/apps/WallpaperPicker" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/modules/CaptivePortalLogin" />
+  <remove-project name="platform/packages/modules/NetworkStack" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
@@ -197,6 +199,7 @@
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/connectivity/wificond" />
   <remove-project name="platform/system/tools/hidl" />
+  <remove-project name="platform/system/libfmq" />
 
   <!-- Misc repos -->
   <remove-project name="platform/libcore" />
